@@ -1,7 +1,12 @@
+import java.util.Scanner;
+
 public class App {
     public static void main(String[] args) throws Exception {
+        Scanner read = new Scanner(System.in);
+        int number;
 
-        int number = 5;
+        System.out.printf("Informe o número: ");
+        number = read.nextInt();
 
         System.out.println("Tabela de multiplicação de " + number);
 
